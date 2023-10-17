@@ -1,0 +1,42 @@
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width:50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.boxA{
+    background-color: #0000ff;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+}
+.boxB{
+    background-color: #ff0000;
+    position:absolute;
+    top: -30px;
+    left: -30px;
+}
+.boxC{
+    background-color: #000000;
+    position:absolute;
+    top: -30px;
+    right: -30px;
+}
+.boxD{
+    background-color: #008000;
+    position:absolute;
+    bottom: -30px;
+    left: -30px;
+}
+.boxE{
+    background-color: #ffa500;
+    position:absolute;
+    bottom: -30px;
+    right: -30px;
+}

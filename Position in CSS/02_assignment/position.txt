@@ -1,0 +1,25 @@
+Que 2. Explain the difference between Absolute and Relative positioning.
+
+Sol:
+Absolute Position: 
+
+1. When an html elements gets position absolute, it means its position relative to its nearest parent position.If parent has not any position then that elements position relative to body of html document or relative to viewport.
+
+2. Absolute position elements does not occupies its own space.
+
+Ex-{
+    position:absolute;
+    top:30px;
+    left:30px;
+   }
+
+Relative position:
+1. When an html elements gets position relative, it means its position relative to its  normal(current) position.
+
+2. Relative position elements occupies its own space, and also moves from its original position.
+
+Ex-{
+    position:relative;
+    top:30px;
+    left:30px;
+   }
